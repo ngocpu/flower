@@ -1,0 +1,356 @@
+.root{
+
+}
+.html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav bar */
+.header-section{
+
+}
+.navbar{
+    padding: 8px 0;
+}
+.nav1{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-family: 'Baloo Chettan', cursive;
+}
+.nav-item{
+    margin: 0 10px !important;
+}
+.nav-item:hover .nav-link{
+    color: #e1603a;
+}
+@media only screen and (max-width: 768px) {
+    .nav1{
+        display: none;
+    }
+}
+/* slider */
+.slider-section{
+    padding: 45px 0 75px 0;;
+}
+.container{
+    /* background-image: url("/asset/img/fl1.jpg"); */
+}
+
+.head-text{
+    align-items: center;
+}
+
+.head-title{
+    font-size: 3rem;
+    color: #e1603a;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.head-des{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.head-submit{
+    padding: 8px 75px;
+    margin: 35px 0;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+}
+.head-submit:hover{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.head-icon{
+    margin: 0 5px;
+    background-color: #fff;
+    color: #e1603a;
+    border-radius: 50%;
+}
+.head-icon:hover{
+    color: black;
+    cursor: pointer;
+}
+/* /////////// */
+.about-section{
+    padding: 64px 0;
+    position: relative;
+}
+/* .row-content{
+    margin-top: 10%;
+} */
+.section_number{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 75px;
+    color: #fff;
+    background: linear-gradient(to bottom, #e1603a, #dc373d);
+    border-radius: 50%;
+}
+.imgbox img{
+    width: 100%;
+}
+.detail-title{
+    display:flex;
+    justify-content: flex-end;
+} 
+.detail-title h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.detail-des{
+    font-size: 1.2rem;
+    text-align:right;
+    margin: 25px 0;
+}
+/* /////why choose */
+
+.why-section{
+    text-align: center;
+    color: #fff;
+    background-image: url('	https://html.design/demo/fior/images/why-bg.jpg');
+    background-size: cover;
+    position: relative;
+}
+.section_number--left{
+    left: 5%;
+}
+.content-why{
+    justify-content: center;
+}
+.container-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.container-content{
+    font-size: 1.2rem;
+    margin: 50px 0;
+}
+
+.container-btn{
+    padding: 8px 60px;
+    background-color: #fff;
+    color: #e1603a;
+    border-radius: 20px;
+    border: none;
+}
+.container-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* gallery */
+.section-glallery{
+    text-align: center;
+}
+.container-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-box h2{
+    margin-left: 5px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-img{
+    margin-top: 45px;
+    display: flex;
+}
+.box{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.box-1-contai{
+    display: flex;
+    
+}
+.b1{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.b2{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.gla-img{
+    display: flex;
+    margin: 10px;
+}
+.gla-img-2{
+    margin: 16px 10px;
+}
+.gla-img img{
+    width: 100%;
+    transition: all .3s;
+    cursor: pointer;
+}
+.gla-img:hover img{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/* //// */
+.row-title{
+    margin-bottom: 50px;
+}
+.cus-content{
+    position: relative;
+    margin: 45px 0;
+    padding: 25px 25px 45px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+.cus-content:hover{
+    cursor: pointer;
+    background-color: #dc373d;
+    color: #fff;
+    border: none;
+}
+.cus-img{
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    width: 100px;
+    transform: translateY(-50%);
+}
+.cus-head{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cus-des{
+    margin: 10px 0;
+}
+/* form */
+.input-form{
+    margin-bottom: 20px;
+}
+.input{
+    height: 50px;
+    padding-left: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #bbb;
+}
+.input-btn{
+    color: #fff;
+    font-weight: bold;
+    background-color: #dc373d;
+    border-radius: 20px;
+    padding: 10px 40px;
+    justify-items: center;
+}
+.input-btn:hover{
+    background-color: #fff;
+    color: #dc373d;
+    border: 1px solid #dc373d;
+}
+/* info */
+
+.section-info {
+    background-color: #252525;
+    color: #fff;
+}
+.logo-inf h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Baloo Chettan', cursive;
+}
+.inf-heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.inf-list{
+    list-style: none;
+    padding: 0;
+}
+.inf-item{
+    padding: 5px 0;
+}
+
+.inf-link{
+    text-decoration: none;
+    color: #fff;
+}
+.inf-link--active{
+    color: #e1603a;
+}
+.inf-item:hover .inf-link{
+    color: #e1603a;
+}
+
+.inf-box-img > div{
+    display: flex;
+}
+.inf-img{
+    margin: 5px;
+    display: flex;
+    align-items: stretch;
+    width: 50px;
+}
+.inf-img img{
+    width: 100%;
+}
+.nd-contact{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.nd-contact img{
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+.nd-contact span{
+    font-size: 1rem;
+}
+
+/* respon */
+@media only screen and (max-width: 768px) {
+    .section-info{
+        text-align: center;
+    }
+    .inf-box-img > div{
+        display: flex;
+        justify-content: center;
+    }
+    .nd-contact{
+        justify-content: center;
+    }
+}
+
