@@ -26,6 +26,9 @@
 .nav-item{
     margin: 0 10px !important;
 }
+.actives{
+    color: #e1603a;
+}
 .nav-item:hover .nav-link{
     color: #e1603a;
 }
@@ -66,8 +69,10 @@
     background-color: #333;
     border: none;
     border-radius: 20px;
+    transition: all .3s;
 }
 .head-submit:hover{
+    transform: translateY(-10px);
     color: #333;
     background-color: #fff;
     border: 1px solid #333;
@@ -208,19 +213,18 @@
 .gla-img{
     display: flex;
     margin: 10px;
+    overflow: hidden;
 }
 .gla-img-2{
     margin: 16px 10px;
 }
 .gla-img img{
     width: 100%;
-    transition: all .3s;
+    transition: all .35s;
     cursor: pointer;
 }
 .gla-img:hover img{
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 /* //// */
 .row-title{
